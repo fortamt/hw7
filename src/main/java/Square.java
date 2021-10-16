@@ -1,6 +1,8 @@
 public class Square implements Shape{
+    private final String NAME = "Square";
+
     @Override
-    public void getName() {
-        System.out.println("Square");
+    public String getName() {
+        return NAME;
     }
 }

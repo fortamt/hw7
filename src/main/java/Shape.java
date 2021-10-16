@@ -1,5 +1,5 @@
 public interface Shape {
 
-    void getName();
+    String getName();
 
 }

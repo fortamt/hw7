@@ -1,6 +1,8 @@
 public class Rhombus implements Shape{
+    private final String NAME = "Rhombus";
+
     @Override
-    public void getName() {
-        System.out.println("Rhombus");
+    public String getName() {
+        return NAME;
     }
 }

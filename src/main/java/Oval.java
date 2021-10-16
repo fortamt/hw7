@@ -1,6 +1,8 @@
 public class Oval implements Shape{
+    private final String NAME = "Oval";
+
     @Override
-    public void getName() {
-        System.out.println("Oval");
+    public String getName() {
+        return NAME;
     }
 }

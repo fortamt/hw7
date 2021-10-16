@@ -1,6 +1,8 @@
 public class Circle implements Shape{
+    private final String NAME = "Circle";
+
     @Override
-    public void getName() {
-        System.out.println("Circle");
+    public String getName() {
+        return NAME;
     }
 }
