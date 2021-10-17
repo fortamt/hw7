@@ -1,5 +1,5 @@
 public class Circle implements Shape{
-    private final String NAME = "Circle";
+    public static final String NAME = "Circle";
 
     @Override
     public String getName() {

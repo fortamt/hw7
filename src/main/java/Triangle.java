@@ -1,5 +1,5 @@
 public class Triangle implements Shape{
-    private final String NAME = "Triangle";
+    public static final String NAME = "Triangle";
 
     @Override
     public String getName() {
